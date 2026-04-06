@@ -13,9 +13,9 @@ export default {
           "Worker запущен.",
           "",
           "Установите вебхук (подставьте URL после деплоя):",
-          "https://api.telegram.org/bot<TOKEN>/setWebhook?url=https://<ваш-worker>.workers.dev",
+          "https://api.telegram.org/bot<TOKEN>/setWebhook?url=https://<test.patientzero494.workers.dev>.workers.dev",
           "",
-          "Секрет BOT_TOKEN: wrangler secret put BOT_TOKEN",
+          "Секрет BOT_TOKEN: wrangler secret put 8670249128:AAHTLB89_YZvU3zv6a9_TFiLjCgRBCphf6M",
         ].join("\n"),
         { headers: { "content-type": "text/plain; charset=utf-8" } }
       );
